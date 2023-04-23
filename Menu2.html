@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!DOCTYPE html>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BnB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel = "icon" href ="LogoCircle.png" type= "image/x-icon">
+</head>
+<body>
+  <div class="banner">
+    <div class = "navbar">
+      <image src = "Logo.png" class = "logo">
+          <ul>
+              <li><a href="Index.html">Home</a></li>
+              <li>
+                  <a>Menu+</a>
+                  <ul class = "dropdown">
+                      <li><a href="Menu.html">Bread</a></li>
+                      <li><a href="Menu2.html">Blades</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <a>About Us+</a>
+                  <ul class = "dropdown">
+                      <li><a href="AboutUs.html">People</a></li>
+                      <li><a href="AboutUs2.html">Shop</a></li>
+                      <li><a href="About.html">Company</a></li>
+                  </ul>
+              </li>
+              <li><a href="ContactUs.html">Contact Us</a></li>
+              <li>
+                  <a href = "#">More+</a>
+                  <ul class = "dropdown">
+                      <li><a href="Merch.html">Merch</a></li>
+                      <li><a href="Gallery.html">Gallery</a></li>
+                      <li><a href="Rewards.html">Reviews</a></li>
+                      <li><a href="FAQ.html">FAQ's</a></li>
+                  </ul>
+              </li>
+
+          </ul>
+  </div>
+</div>
+
+    <div class="headerProduct">
+        <h1> Products </h1>
+        <h3> Blades</h3>
+    </div>
+
+    <div class="OutofOrder">
+      <div class="card-container">
+    
+            <div class="card">
+            <a href="GreatSword.png" data-lightbox="Bread">
+              <img src="GreatSwordPic.png" alt="Product 1">
+            </a>
+              <h1>Great Sword</h1>
+              <p class="price">P 16,600</p>
+              <p>A massive two-handed sword with a long blade, designed for heavy striking.</p>
+              <button class="btn" onclick="openPopup()" >Add to Cart</button>
+            </div>
+      
+            <div class="card">
+            <a href="Halberd.png" data-lightbox="Bread" data-title= "Caption1">
+              <img src="Halbert.png" alt="Product 2">
+            </a>
+              <h1>Halberd</h1>
+              <p class="price">P 4,650</p>
+              <p>A massive two-handed sword with a long blade, designed for heavy striking.
+             <button class="btn" onclick="openPopup()" >Add to Cart</button>
+            </div>
+    
+            <div class="card">
+              <a href="Rapier.png" data-lightbox="Bread">
+                <img src="rapiers.png" alt="Product 1">
+              </a>
+                <h1>Rapier</h1>
+                <p class="price"> P 3,985</p>
+                <p>A massive two-handed sword with a long blade, designed for heavy striking.</p>
+                <button class="btn" onclick="openPopup()" >Add to Cart</button>
+              </div>
+    
+            <div class="card">
+              <a href="Karambit.png" data-lightbox="Bread" data-title= "Caption1">
+                <img src="Karam.jpg" alt="Product 2">
+              </a>
+              <h1>Karambit</h1>
+              <p class="price">P 2,500</p>
+              <p>A curved knife resembling a claw, originally from Southeast Asia, used for self-defense and hunting.</p>
+              <button class="btn" onclick="openPopup()" >Add to Cart</button>
+            </div>
+        
+        <div class="popup" id="popup">
+          <img src="LogoCircle.png">
+          <h2>Thank you</h2>
+          <p>Function not implemented yet</p>
+          <button type="button" onclick="closePopup()">OK</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="OutofOrder2">
+      <div class="card-container">
+                <div class="card">
+              <a href="Balisong.png" data-lightbox="Bread" data-title= "Caption1">
+                <img src="Butterfly.jpg" alt="Product 2">
+              </a>
+              <h1>Balisong</h1>
+              <p class="price">P 2,500</p>
+              <p>A folding knife with two handles that rotate around the blade, originating from the Philippines and commonly used for flipping tricks.</p>
+              <button class="btn" onclick="openPopup()" >Add to Cart</button>
+            </div>
+    
+            <div class="card">
+              <a href="BattleAxe.png" data-lightbox="Bread">
+                <img src="BattleAxe.jpg" alt="Product 1">
+              </a>
+              <h1>Battle Axe</h1>
+              <p class="price">P 4,400</p>
+              <p>A heavy and sharp-edged weapon designed for chopping and splitting in battle.</p>
+              <button class="btn" onclick="openPopup()" >Add to Cart</button>
+            </div>
+    
+            <div class="card">
+              <a href="Camping Knife.png" data-lightbox="Bread">
+                <img src="Knife.jpg" alt="Product 1">
+              </a>
+                <h1>Camping knife</h1>
+                <p class="price">P 2,500</p>
+                <p>A compact and versatile knife designed for outdoor activities such as camping, hiking, and fishing</p>
+                <button class="btn" onclick="openPopup()" >Add to Cart</button>
+              </div>
+    
+            <div class="card">
+              <a href="Spear.png" data-lightbox="Bread">
+                <img src="Soear.jpg" alt="Product 2">
+              </a>
+              <h1>Spear</h1>
+              <p class="price">P 4,800</p>
+              <p>A long, pointed weapon used for thrusting or throwing, typically made of wood with a metal point.</p>
+              <button class="btn" onclick="openPopup()" >Add to Cart</button>
+            </div>
+      </div>
+    </div>
+    
+    <script src="popup.js"></script>
+
+      <script src= "lightbox-plus-jquery.js"></script>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <footer>
+        <section class="footer">
+            <div class="socials">
+                <a href="https://www.instagram.com/breadandblades/"><img src="instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com/BreadandBlades"><img src="twitter.png" alt="Twitter"></a>
+                <a href="https://www.facebook.com/Bread.and.Blades/"><img src="facebook.png" alt="Facebook"></a>
+                
+            </div>
+            
+            <ul class="list">
+              <li><a href="Index.html">Home</a></li>
+              <li><a href="OtherServices.html">Services</a></li>
+              <li><a href="About.Html">About</a></li>
+              <li><a href="Terms.html">Terms</a></li>
+              <li><a href="Privacy.html">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Bread and Blades @ 2023</p>
+        </section>
+    </footer>
+    </body>
+
+</html>
+

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!DOCTYPE html>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BnB</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel = "icon" href ="LogoCircle.png" type= "image/x-icon">
+</head>
+<body class="FAQ">
+    <div class="banner">
+        <div class = "navbar">
+            <image src = "Logo.png" class = "logo">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li>
+                        <a>Menu+</a>
+                        <ul class = "dropdown">
+                            <li><a href="Menu.html">Bread</a></li>
+                            <li><a href="Menu2.html">Blades</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>About Us+</a>
+                        <ul class = "dropdown">
+                            <li><a href="AboutUs.html">People</a></li>
+                            <li><a href="AboutUs2.html">Shop</a></li>
+                            <li><a href="About.html">Company</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li>
+                        <a href = "#">More+</a>
+                        <ul class = "dropdown">
+                            <li><a href="Merch.html">Merch</a></li>
+                            <li><a href="Gallery.html">Gallery</a></li>
+                            <li><a href="Rewards.html">Review</a></li>
+                            <li><a href="FAQ.html">FAQ's</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+        </div>
+		
+        <div class="Qna">
+
+    <h1 class="heading">frequently asked questions</h1>
+
+    <div class="accordion-container">
+
+        <div class="accordion active">
+            <div class="accordion-heading">
+                <h3>Do you offer any customization options for your swords?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                We apologize for the confusion, but we do not offer any customization options for our swords at this time. Our swords are made using traditional techniques and designs, ensuring their authenticity and quality. We believe that each sword has its own unique history and significance, and we strive to honor that legacy by creating swords that are true to their original form.
+            </p>
+        </div>
+
+        <div class="accordion active">
+            <div class="accordion-heading">
+                <h3>Can you make replicas of historical swords or create original designs?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                We apologize for the confusion, but we do not create custom pieces at this time.
+            </p>
+        </div>
+
+
+        <div class="accordion active">
+            <div class="accordion-heading">
+                <h3>How do I place an order for custom swords?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                We apologize for the confusion, but we do not create custom pieces at this time.
+            </p>
+        </div>
+
+
+        <div class="accordion active">
+            <div class="accordion-heading">
+                <h3>Are your baked goods made fresh daily?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                Yes, all of our baked goods are made fresh daily using high-quality ingredients.
+            </p>
+        </div>
+
+
+        <div class="accordion">
+            <div class="accordion-heading">
+                <h3>What types of payment methods do you accept?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                We accept various payment methods, including credit cards, debit cards, PayPal, and Gcash.
+            </p>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-heading">
+                <h3>Do you offer any refunds for broken/poorly made swords and bread?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                Yes, we offer refunds for broken or poorly made swords and bread. Please contact us within 7 days of receiving your order to initiate the return process.
+            </p>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-heading">
+                <h3>Do you offer any discounts or promotions for bulk orders?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                Yes, we offer discounts and promotions for bulk orders. Please contact us directly to discuss your specific needs and requirements.
+            </p>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-heading">
+                <h3>Do you have any gluten-free or vegan options available?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                Yes, we have a variety of gluten-free and vegan options available for our baked goods. Please let us know via email if you have any specific dietary restrictions or preferences.
+            </p>
+        </div>
+
+        <div class="accordion">
+            <div class="accordion-heading">
+                <h3>Do you offer any sword maintenance or repair services?</h3>
+                <i class="fas fa-angle-down"></i>
+            </div>
+            <p class="accordion-content">
+                Yes, we offer sword maintenance and repair services to ensure that your sword stays in top condition. Please contact us to discuss your specific needs and requirements.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+<script>
+
+let accordions = document.querySelectorAll('.accordion-container .accordion');
+
+accordions.forEach(acco =>{
+    acco.onclick = () =>{
+        accordions.forEach(subAcco => { subAcco.classList.remove('active') });
+        acco.classList.add('active');
+    }
+})
+
+</script>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+    <footer>
+        <section class="footer">
+            <div class="socials">
+                <a href="https://www.instagram.com/breadandblades/"><img src="instagram.png" alt="Instagram"></a>
+                <a href="https://twitter.com/BreadandBlades"><img src="twitter.png" alt="Twitter"></a>
+                <a href="https://www.facebook.com/Bread.and.Blades/"><img src="facebook.png" alt="Facebook"></a>
+                
+            </div>
+            
+            <ul class="list">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="OtherServices.html">Services</a></li>
+                <li><a href="About.Html">About</a></li>
+                <li><a href="Terms.html">Terms</a></li>
+                <li><a href="Privacy.html">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Bread and Blades @ 2023</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
+
