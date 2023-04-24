@@ -342,8 +342,8 @@ footer{
 
   .auth{
     
-    height: 500px;
-    width: 500px;
+    height: 450;
+    width: 450px;
     color: white;
     padding-top: 100px;
     padding-right: 50px;
@@ -362,9 +362,10 @@ footer{
   .headerAuth h3{
     text-align: center;
     padding-top: 60px;
-    font-size: 2em;
+    font-size: 60px;
     color: white;
     padding-right: 50;
+    padding-bottom: 20px;
   }
 
   .auth img {
@@ -385,13 +386,18 @@ footer{
   }
   
   .auth p {
-    margin-bottom: 10px;
+    margin-bottom: 5%;
   }
   
   .containerAuth {
     display: flex;
     justify-content: center;
     padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: #ccc;
+    align-items: center;
   }
   
 
